@@ -538,7 +538,7 @@ module.exports = function(Chart) {
 					onAnimationProgress: animationOptions.onProgress,
 					onAnimationComplete: onComplete
 				});
-
+        console.log(animation)
 				animations.addAnimation(me, animation, duration, lazy);
 			} else {
 				me.draw();
